@@ -15,6 +15,10 @@ Fastify sends framed extraction requests to Python over inherited process pipes,
 
 This is orchestrated in a Dockerfile, and can also boot from an npm start.
 
+## Hosted option
+
+If you don’t want to run the Fastify + Python stack yourself, [Vid Kraken](https://vidkraken.com) is a managed YouTube download API (info / mp3 / mp4 endpoints).
+
 ## Internal imports
 
 Use package `imports` aliases for cross-area imports that would otherwise require deep `../../` paths, and keep relative imports for nearby sibling files. Examples:
